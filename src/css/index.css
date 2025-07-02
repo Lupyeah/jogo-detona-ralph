@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../images/wall.png");
+
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        height: 100px;
+        width: 100%;
+        background-color: #000000;
+        color: #ffffff;
+        border-bottom: 5px solid #ffd700;
+
+        .menu-lives {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .menu-time h2:nth-child(1),
+        .menu-score h2:nth-child(1) {
+            color: red;
+        }
+
+        .menu-time h2:nth-child(2),
+        .menu-score h2:nth-child(2) {
+            margin-top: 1rem;
+        }
+    }
+
+    .panel {
+        margin-top: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+
+        .window {
+            background-size: cover;
+            background-position: center;
+            background-image: url(../images/Opera\ Instantâneo_2025-07-02_115736_www.pixilart.com\ \(1\).png);
+            width: 150px;
+            height: 207px;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .enemy {
+            background-image: url("../images/ralph.png");
+            background-size: cover;
+            background-position: center;
+            width: 100px;
+            height: 175px;
+            position: absolute;
+        }
+
+        .window.enemy-visible::after {
+            content: "";
+            background-image: url("../images/ralph.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            width: 166px;
+            height: 124px;
+            top: 43px;
+            left: -10px;
+        }
+    }
+}
