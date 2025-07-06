@@ -59,6 +59,7 @@ function addListenerHitBox() {
 }
 
 function initialize() {
+    alert("Aperte Ok para começar o jogo!");
     addListenerHitBox();
 }
 

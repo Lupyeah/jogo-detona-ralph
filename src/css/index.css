@@ -5,6 +5,14 @@
     font-family: "Press Start 2P", cursive;
 }
 
+body {
+    cursor: url(../images/cursor.png), auto;
+}
+
+body:active {
+    cursor: url(../images/cursor-click.png), auto;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -22,10 +30,18 @@
         color: #ffffff;
         border-bottom: 5px solid #ffd700;
 
+        .logo {
+            display: flex;
+            margin-left: -250px;
+            height: 70px;
+            width: 80px;
+        }
+
         .menu-lives {
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-right: -250px;
             gap: 10px;
         }
 
@@ -50,7 +66,7 @@
         .window {
             background-size: cover;
             background-position: center;
-            background-image: url(../images/Opera\ Instantâneo_2025-07-02_115736_www.pixilart.com\ \(1\).png);
+            background-image: url(../images/window.png);
             width: 150px;
             height: 207px;
             position: relative;
