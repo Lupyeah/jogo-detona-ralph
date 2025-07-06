@@ -15,12 +15,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Um jogo do Detona Ralph
+Um jogo do Detona Ralph!
 
 - [Para ver no site](https://lupyeah.github.io/jogo-detona-ralph/)
 
 ## 📋 Funcionalidades
 
-- 📌 Jogo com pontos estilo bate bate
-- ❗ Com cursor personalizado 
+- 📌 Jogo com pontos estilo bate bate!
+- ❗ Com cursor personalizado!
 ---
